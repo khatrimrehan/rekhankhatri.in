@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 var csr = document.querySelector("#cursor")
@@ -37,7 +37,7 @@ gsap.to("#nav", {
         scrub: 1
     }
 })
-=======
+
 
 
 var csr = document.querySelector("#cursor")
@@ -73,60 +73,4 @@ document.addEventListener("mousemove", function (dets) {
 
 
 
-gsap.to("#nav", {
-    backgroundColor: "#0b0b0bc7",
-    backdropFilter: "blur(10px)",
-    duration: 0.5,
-    height: "65.27px",
-    scrollTrigger: {
-        trigger: "#nav",
-        scroller: "body",
-        start: "top -15%",
-        end: "top -16%",
-        scrub: 1
-    }
-})
 
-gsap.to("#main", {
-    backgroundColor: "#000000",
-    scrollTrigger: {
-        trigger: "#main",
-        scroller: "body",
-        start: "top -30%",
-        end: "top -80%",
-        scrub: 2
-    }
-})
-
-gsap.from(".lft,.rght", {
-    y: 80,
-    opacity: 0,
-    duration: 1,
-    delay: 0.3,
-    stagger:0.4,
-    scrollTrigger: {
-        trigger: "#page2",
-        scroller: "body",
-        start: "top 60%",
-        end:"top 0%",
-        
-    }
-})
-
-gsap.from(".pics", {
-    Z: 80,
-    opacity: 0,
-    duration: 1,
-    stagger: 0.4,
-    
-    scrollTrigger: {
-        trigger: ".pics",
-        scroller: "body",
-        markers: true,
-        scrub: 2,
-        start:"top 70%",
-        end:"top 40%"
-        
-    }
-})
->>>>>>> b62fd5762a5c46c02341345e124cf923d4611bbd
