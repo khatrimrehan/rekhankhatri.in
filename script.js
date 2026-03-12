@@ -1,6 +1,7 @@
 
 
 
+
 var csr = document.querySelector("#cursor")
 
 
@@ -66,6 +67,13 @@ document.addEventListener("mousemove", function (dets) {
     }, 90) // delay in milliseconds (100ms)
 
 })
+
+
+
+
+
+
+
 
 
 
