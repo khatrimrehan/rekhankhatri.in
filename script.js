@@ -324,7 +324,7 @@ gsap.from("#child-box", {
         scrub:1,
         start: "top 80%",
         end: "bottom 40%",
-        markers:true
+        markers:false
         
     }
 });
