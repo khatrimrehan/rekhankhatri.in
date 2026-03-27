@@ -74,6 +74,9 @@ body {
         transition: all ease-in-out 250ms;
     }
 }
+.left>a>img{
+    height: 26px;
+}
 
 .right ul {
     display: flex;
