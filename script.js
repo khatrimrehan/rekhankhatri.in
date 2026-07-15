@@ -72,7 +72,7 @@ gsap.from(".leftt,.right,.rk", {
     y: -100,
     delay: 0.1,
     opacity: 0,
-    stagger: 0.2,
+    stagger: 0,
     duration: 1
 });
 
