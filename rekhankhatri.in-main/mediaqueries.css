@@ -1,0 +1,31 @@
+@media (max-width: 1490px) {
+#nav{
+    padding: 25px 40px;
+}
+
+}
+
+@media (max-width: 1010px) {
+#nav{
+    padding: 22px 30px;
+}
+}
+
+@media (max-width: 769px) {
+#nav{
+    padding: 20px 24px;
+}
+.right ul>a>i {
+      display: block;
+   }
+
+   .right>ul>li>a {
+      display: none;
+   }
+
+
+   .left{
+    margin-left: 5.5px;
+   }
+
+}
