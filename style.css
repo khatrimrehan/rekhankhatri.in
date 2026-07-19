@@ -29,6 +29,10 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+.imge img{
+    filter: grayscale(1);
+}
+
 #nav {
     position: fixed;
     display: flex;
